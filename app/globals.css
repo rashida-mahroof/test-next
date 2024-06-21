@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: small;
+  
+}
+h1,h2,h3{
+  color: var(--primary-color);
+}
+p{
+  font-size: 12px;
+}
+:root{
+  --primary-color:rgb(30 58 138);
+  --text-color:#fff;
+}
